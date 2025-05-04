@@ -8,10 +8,10 @@ def encontrar_indices(nums, target):
 
 def main():
     target = int(input("Informe o número target: "))
-    
+    tam = int(input("Informe o tamanho do vetor:"))
     vetor = []
     print("Agora informe os valores dentro do vetor:")
-    for i in range(5):
+    for i in range(tam):
         valor = int(input(f"Valor na posição [{i}]: "))
         vetor.append(valor)
     
